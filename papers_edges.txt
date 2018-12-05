@@ -1,0 +1,20 @@
+# A file describing which papers influenced what, required
+# for my influence graph.
+#
+# These aren't based on just references, they're based on manual analysis by
+# reading the papers in question
+#
+# Example
+DieHard => DieHarder
+DieHard => Exterminator
+DieHard => MvArmor
+DieHarder => FreeGuard
+FreeGuard => Guarder
+FreeGuard => HeapHopper
+
+
+DieHard => Undangle
+Cling => Undangle
+Cling => FreeSentry
+Undangle => FreeSentry
+Cling => DangNULL
